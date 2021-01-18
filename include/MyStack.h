@@ -5,7 +5,7 @@
 #include <iostream>
 template <class T>
 class MyStack {
-public:
+ public:
     explicit MyStack(int size) {
         this->head = 0;
         this->size = size;
@@ -45,8 +45,7 @@ public:
         if (!isFull()) {
             this->stack[this->head] = new_elem;
             this->head++;
-        }
-        else {
+        } else {
             std::cout << "Stack is empty!\n";
         }
     }
@@ -57,7 +56,7 @@ public:
         return (head == 0);
     }
 
-private:
+ private:
     int head{};
     int size{};
     T* stack;

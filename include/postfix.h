@@ -4,4 +4,4 @@
 #include <string>
 #ifdef POSTFIX_H
 std::string infix2postfix(std::string inf);
-#endif // POSTFIX_H
+#endif  // POSTFIX_H
