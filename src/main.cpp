@@ -1,7 +1,7 @@
 // Copyright 2021 Kartseva Mariya
 #include "postfix.h"
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 
 int main() {
     std::string inf1 = "2 + 2";
